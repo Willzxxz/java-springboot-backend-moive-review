@@ -15,6 +15,7 @@
 	<description>a simple api for movies</description>
 	<properties>
 		<java.version>11</java.version>
+		<maven.plugin.validation>VERBOSE</maven.plugin.validation>
 	</properties>
 	<dependencies>
 		<dependency>
