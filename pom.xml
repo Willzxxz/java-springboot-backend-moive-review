@@ -14,18 +14,16 @@
 	<name>movies</name>
 	<description>a simple api for movies</description>
 	<properties>
-		<java.version>11</java.version>
-		<maven.plugin.validation>VERBOSE</maven.plugin.validation>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -90,9 +88,9 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version> <!-- Update to a newer version -->
+				<version>3.10.1</version>
 				<configuration>
-					<release>11</release> <!-- Set the appropriate Java release version -->
+					<release>11</release>
 				</configuration>
 			</plugin>
 			<plugin>
